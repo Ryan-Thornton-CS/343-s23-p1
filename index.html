@@ -4,24 +4,27 @@
 <head>
   <!--Start of favicon-->
   <link rel="apple-touch-icon" sizes="180x180"
-    href="images/favicon/apple-touch-icon.png" />
+    href="images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32"
-    href="images/favicon/favicon-32x32.png" />
+    href="images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16"
-    href="images/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="images/favicon/site.webmanifest" />
+    href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
   <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg"
-    color="#5bbad5" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
+    color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <!--End of favicon-->
 
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Art Collection - Anato Finnstark</title>
+  <title>Anato Finnstark's - Art Collection</title>
   <meta name="author" content="Ryan Thornton and Hudson Shaeffer" />
   <meta name="artist" content="Anato Finnstark" />
+
+  <!--Style Sheet-->
+  <link href="css/index.css" rel="stylesheet">
 </head>
 
 <!--Socials of the artist:
@@ -30,13 +33,93 @@
   "https://www.youtube.com/channel/UChIjArnRdnQFMIDxHIj42yA"-->
 
 <body>
-  <header>
-    <p>
-      Anato Finnstark's
-      <a href="https://anto-finnstark.artstation.com/">artwork</a>
-    </p>
+  <header id="header" class="header">
+    <!--Start of global navigation container-->
+    <div id="nav-container" class="nav-container"
+      aria-label="Global Navigation">
+      <nav id="nav">
+        <h2>Navigation</h2>
+        <ul>
+          <li>
+            <button id="store-button"
+              onclick="window.location.href='purchase_page.html';">
+              <div id="store-button-title">Store</div>
+            </button>
+          </li>
+          <li>
+            <button id="gallery-button"
+              onclick="window.location.href='gallery.html';">
+              <div id="gallery-button-title">Gallery</div>
+            </button>
+          </li>
+          <li>
+            <button id="origin-button"
+              onclick="window.location.href='origin_of_drawings.html';">
+              <div id="origin-button-title">Inspiration</div>
+            </button>
+          </li>
+          <li>
+            <button id="shows-button"
+              onclick="window.location.href='up_coming_shows.html';">
+              <div id="shows-button-title">Art Exhibition Timeline</div>
+            </button>
+          </li>
+          <li>
+            <button id="instagram-button"
+              onclick="window.location.href='https://www.instagram.com/anatofinnstark/?hl=en';">
+              <div id="instagram-button-title">Instagram</div>
+            </button>
+          </li>
+          <li>
+            <button id="youtube-button"
+              onclick="window.location.href='https://www.youtube.com/channel/UChIjArnRdnQFMIDxHIj42yA';">
+              <div id="youtube-button-title">YouTube</div>
+            </button>
+          </li>
+          <li>
+            <button id="facebook-button"
+              onclick="window.location.href='https://www.facebook.com/finnstarkillustration';">
+              <div id="facebook-button-title">FaceBook</div>
+            </button>
+          </li>
+          <li>
+            <button id="twitter-button"
+              onclick="window.location.href='https://twitter.com/AFinnstark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';">
+              <div id="twitter-button-title">Twitter</div>
+            </button>
+          </li>
+          <li>
+            <button id="artstation-button"
+              onclick="window.location.href='https://anto-finnstark.artstation.com/';">
+              <div id="artstation-button-title">ArtStation</div>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of global navigation container-->
+    <!--Start of title-->
+    <div id="main-title" class="main-title">
+      <h1 id="main-title-text">Anato Finnstark's Art Collection</h1>
+    </div>
+    <!--End of title-->
   </header>
-  <p>IN WORK</p>
+  <div id="about-me" class="about-me">
+    <h2 id="about-me">About Me</h2>
+    <p id="about-me-text">Hello! My name is Anato Finnstark and I am a French
+      native and long time
+      artist. I have worked professionally as an illustrator and concept-artist
+      for Unit Image, Wizard of the coast, Dark Horse Studio, National Library
+      of France, Materia Collective, and lots more!</p>
+
+    <p id="about-me-text-two">My inspirations contributing towards my art work
+      has been heavily driven
+      from my love of fantasy movies, shows, and video games. More particularly
+      from some of my favorite movies/shows of the Lord of the Rings, Games of
+      Thrones, Dune, and The Witcher. However, my occasional video game sessions
+      playing Dark souls Three and Bloodborne contributed towards my imaginative
+      creations.</p>
+  </div>
 </body>
 
 </html>
