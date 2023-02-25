@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Start of head-->
+
 <head>
   <!--Start of favicon-->
   <link rel="apple-touch-icon" sizes="180x180"
@@ -16,6 +18,11 @@
   <meta name="theme-color" content="#ffffff">
   <!--End of favicon-->
 
+  <!--This is used for icons for the buttons-->
+  <script src="https://kit.fontawesome.com/b6dbcc4dbd.js"
+    crossorigin="anonymous"></script>
+  <!--End of icons-->
+
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,89 +34,96 @@
   <link href="css/index.css" rel="stylesheet">
   <!--End Style Sheet-->
 </head>
+<!--End of head-->
+
 
 <!--Start of Body-->
 
 <body>
-  <header id="header" class="header">
-    <!--Start of global navigation container-->
-    <div id="nav-container" class="nav-container">
-      <nav id="nav">
-        <h3>Navigation</h3>
-        <ul>
-          <li>
-            <button id="store-button"
-              onclick="window.location.href='purchase_page.html';">
-              Store</button>
-          </li>
-          <li>
-            <button id="gallery-button"
-              onclick="window.location.href='gallery.html';">
-              Gallery</button>
-          </li>
-          <li>
-            <button id="origin-button"
-              onclick="window.location.href='origin_of_drawings.html';">
-              Inspiration</button>
-          </li>
-          <li>
-            <button id="shows-button"
-              onclick="window.location.href='up_coming_shows.html';">
-              Art Exhibition Timeline</button>
-          </li>
-          <li>
-            <button id="instagram-button"
-              onclick="window.location.href='https://www.instagram.com/anatofinnstark/?hl=en';">
-              Instagram</button>
-          </li>
-          <li>
-            <button id="youtube-button"
-              onclick="window.location.href='https://www.youtube.com/channel/UChIjArnRdnQFMIDxHIj42yA';">
-              YouTube</button>
-          </li>
-          <li>
-            <button id="facebook-button"
-              onclick="window.location.href='https://www.facebook.com/finnstarkillustration';">
-              FaceBook</button>
-          </li>
-          <li>
-            <button id="twitter-button"
-              onclick="window.location.href='https://twitter.com/AFinnstark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';">
-              Twitter</button>
-          </li>
-          <li>
-            <button id="artstation-button"
-              onclick="window.location.href='https://anto-finnstark.artstation.com/';">
-              ArtStation</button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <!--End of global navigation container-->
-    <!--Start of title-->
-    <div id="main-title" class="main-title">
-      <h1 id="main-title-text">Anato Finnstark's Art Collection</h1>
-    </div>
-    <!--End of title-->
-  </header>
-  <!--Start of about me-->
-  <div id="about-me" class="about-me">
-    <h2 id="about-me-header">About Me</h2>
-    <p id="about-me-text">Hello! My name is Anato Finnstark and I am a French
-      native and long time
-      artist. I have worked professionally as an illustrator and concept-artist
-      for Unit Image, Wizard of the coast, Dark Horse Studio, National Library
-      of France, Materia Collective, and lots more!</p>
+  <div id="header-and-about-me">
+    <!--Start of header-->
+    <header id="header" class="header">
+      <div id="main-title" class="main-title">
+        <h1 id="main-title-text">Anato Finnstark's Art Collection</h1>
+      </div>
+    </header>
+    <!--End of header-->
+    <!--Start of about me-->
+    <div id="about-me" class="about-me">
+      <h2 id="about-me-header">About Me</h2>
+      <p id="about-me-text">Hello! My name is Anato Finnstark and I am a French
+        native and long time
+        artist. I have worked professionally as an illustrator and
+        concept-artist
+        for Unit Image, Wizard of the coast, Dark Horse Studio, National Library
+        of France, Materia Collective, and lots more!</p>
 
-    <p id="about-me-text-two">My inspirations contributing towards my art work
-      has been heavily driven
-      from my love of fantasy movies, shows, and video games. More particularly
-      from some of my favorite movies/shows of the Lord of the Rings, Games of
-      Thrones, Dune, and The Witcher. However, my occasional video game sessions
-      playing Dark souls Three and Bloodborne contributed towards my imaginative
-      creations.</p>
+      <p id="about-me-text-two">My inspirations contributing towards my art work
+        has been heavily driven
+        from my love of fantasy movies, shows, and video games. More
+        particularly
+        from some of my favorite movies/shows of the Lord of the Rings, Games of
+        Thrones, Dune, and The Witcher. However, my occasional video game
+        sessions
+        playing Dark souls Three and Bloodborne contributed towards my
+        imaginative
+        creations.</p>
+    </div>
+    <!--End of about me-->
   </div>
-  <!--End of about me-->
+  <!--Start of global navigation container-->
+  <div id="nav-container" class="nav-container">
+    <nav id="nav">
+      <ul>
+        <li>
+          <button id="store-button" class="fa-solid fa-store"
+            onclick="window.location.href='purchase_page.html';">
+            Store</button>
+        </li>
+        <li>
+          <button id="gallery-button" class="fa-solid fa-palette"
+            onclick="window.location.href='gallery.html';">
+            Gallery</button>
+        </li>
+        <li>
+          <button id="origin-button" class="fa-solid fa-lightbulb"
+            onclick="window.location.href='origin_of_drawings.html';">
+            Inspiration</button>
+        </li>
+        <li>
+          <button id="shows-button" class="fa-solid fa-calendar"
+            onclick="window.location.href='up_coming_shows.html';">
+            Art Exhibition Timeline</button>
+        </li>
+        <li>
+          <button id="instagram-button" class="fa-brands fa-instagram"
+            onclick="window.location.href='https://www.instagram.com/anatofinnstark/?hl=en';">
+            Instagram</button>
+        </li>
+        <li>
+          <button id="youtube-button" class="fa-brands fa-youtube"
+            onclick="window.location.href='https://www.youtube.com/channel/UChIjArnRdnQFMIDxHIj42yA';">
+            YouTube</button>
+        </li>
+        <li>
+          <button id="facebook-button" class="fa-brands fa-facebook"
+            onclick="window.location.href='https://www.facebook.com/finnstarkillustration';">
+            FaceBook</button>
+        </li>
+        <li>
+          <button id="twitter-button" class="fa-brands fa-twitter"
+            onclick="window.location.href='https://twitter.com/AFinnstark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';">
+            Twitter</button>
+        </li>
+        <li>
+          <button id="artstation-button" class="fa-brands fa-artstation"
+            onclick="window.location.href='https://anto-finnstark.artstation.com/';">
+            ArtStation</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--End of global navigation container-->
 </body>
 <!--End of Body-->
 
