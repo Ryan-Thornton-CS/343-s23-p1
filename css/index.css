@@ -8,30 +8,26 @@ body {
 }
 
 body {
-  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-casca-berserk-fan-art-by-anatofinnstark-dbtwu4c.jpg"),
-    url("/images/anato-finnstark-artwork/anato-finnstark-gollum.jpg"),
-    url("/images/anato-finnstark-artwork/anato-finnstark-web-petit2 (6).jpg");
-  background-position: left, center, right;
-  background-size: contain;
-  background-repeat: no-repeat, no-repeat, no-repeat;
   display: flex;
   align-items: stretch;
   background-color: black;
 }
 
 /*Beginning header*/
-.header {
+#header {
   border: solid 1px;
   border-color: black;
   text-align: center;
   color: white;
   background: rgb(0, 0, 0);
   font-size: xx-large;
+  position: fixed;
+  width: 100%;
 }
 /*End of header*/
 
-/*beginning of nav container*/
-.nav-container {
+/*Beginning of nav container*/
+#nav-container {
   text-align: center;
   margin: 0;
   border: 0;
@@ -39,35 +35,35 @@ body {
   background-color: black;
   right: 0%;
   position: fixed;
+  width: 10%;
 }
 
-.nav-container nav,
+#nav-container nav,
 ul {
   border-left: solid 1px;
   border-color: white;
   height: 100%;
 }
 
-.nav-container ul {
+#nav-container ul {
   margin: 0;
   padding: 0;
-  display: table;
+  height: 100%;
   width: 100%;
 }
 
-.nav-container ul li {
+#nav-container ul li {
   list-style-type: none;
   text-align: left;
   padding-bottom: 0.1vw;
   padding-top: 0.1vw;
 }
-/*end of nav container*/
 
 /*Beginning of buttons*/
-button {
+#nav-container button {
   border-bottom: solid 1px;
+  height: 3vw;
   width: 100%;
-  height: 3.9vw;
   color: white;
   background: black;
   background: linear-gradient(
@@ -78,16 +74,52 @@ button {
   );
 }
 
-button:hover {
+#nav-container button:hover {
   box-shadow: 0px 0px 20px 20px rgb(255, 255, 255);
 }
 /*End of button*/
-.about-me {
+/*end of nav container*/
+
+/*Beginning of reference pictures*/
+#reference-pictures {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#reference-picture-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-casca-berserk-fan-art-by-anatofinnstark-dbtwu4c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#reference-picture-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-gollum.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#reference-picture-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-web-petit2 (6).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*End of reference pictures*/
+
+/*Beginning of about me*/
+#about-me {
   text-align: center;
-  padding-top: 28.5vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-right: 15%;
+  padding-left: 10%;
+  padding-bottom: 5%;
   color: white;
   text-shadow: 5px 5px 10px black;
   font-size: x-large;
 }
+/*End of about me*/
