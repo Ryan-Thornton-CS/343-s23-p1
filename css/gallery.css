@@ -1,0 +1,20 @@
+@media screen and (min-width: 480px) {
+  /*Start of gallery*/
+  #gallery {
+    margin-left: 5vw;
+    margin-right: 11vw;
+  }
+  #gallery h2 {
+    text-align: left;
+  }
+  /*End of gallery*/
+  /*Start of the Dune theme*/
+  #dune img {
+    height: 500px;
+    max-width: 100%;
+  }
+  /*End of the Dune theme*/
+}
+@media screen and (max-width: 480px) {
+    
+}
