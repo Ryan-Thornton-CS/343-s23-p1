@@ -3,8 +3,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
 }
 
 body {
@@ -14,67 +12,118 @@ body {
 }
 
 /*Beginning header*/
-#header {
-  border: solid 1px;
-  border-color: black;
-  text-align: center;
-  color: white;
-  background: rgb(0, 0, 0);
-  font-size: xx-large;
-  position: fixed;
-  width: 100%;
-  height: 15%;
+@media screen and (min-width: 480px) {
+  #header {
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header {
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+    font-size: 1.5vh;
+  }
 }
 /*End of header*/
 
 /*Beginning of nav container*/
-#nav-container {
-  text-align: center;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: black;
-  right: 0%;
-  position: fixed;
-  width: 10%;
-}
-
-#nav-container nav,
-ul {
+#nav-container nav {
   border-left: solid 1px;
   border-color: white;
-  height: 100%;
 }
 
-#nav-container ul {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
+@media screen and (min-width: 480px) {
+  #nav-container {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+    right: 0%;
+    position: fixed;
+    width: 10vw;
+  }
 
-#nav-container ul li {
-  list-style-type: none;
-  text-align: left;
-  padding-bottom: 0.1vw;
-  padding-top: 0.1vw;
-}
+  #nav-container ul {
+    margin: 0;
+    padding: 0;
+  }
 
-/*Beginning of buttons*/
-#nav-container button {
-  border-bottom: solid 1px;
-  height: 3vw;
-  width: 100%;
-  color: white;
-  background: black;
-  background: linear-gradient(
-    90deg,
-    rgb(10, 10, 10) 0%,
-    rgba(0, 0, 0, 1) 50%,
-    rgb(164, 165, 168) 100%
-  );
-}
+  #nav-container ul li {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 0.1vw;
+    padding-top: 0.1vw;
+  }
 
+  /*Beginning of buttons*/
+  #nav-container button {
+    font-size: 1vw;
+    border-bottom: solid 1px;
+    width: 100%;
+    height: 3vw;
+    color: white;
+    background: black;
+    background: linear-gradient(
+      90deg,
+      rgb(10, 10, 10) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgb(164, 165, 168) 100%
+    );
+  }
+}
+@media screen and (max-width: 480px) {
+  #header-and-about-me {
+    margin-right: 20vw;
+  }
+  #nav-container {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+    right: 0%;
+    top: 0%;
+    position: fixed;
+    width: 20vw;
+  }
+
+  #nav-container ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-container ul li {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 0.1vw;
+    padding-top: 0.1vw;
+  }
+
+  /*Beginning of buttons*/
+  #nav-container button {
+    font-size: 2vw;
+    border-bottom: solid 1px;
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background: black;
+    background: linear-gradient(
+      90deg,
+      rgb(10, 10, 10) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgb(164, 165, 168) 100%
+    );
+  }
+}
 #nav-container button:hover {
   box-shadow: 0px 0px 20px 20px rgb(255, 255, 255);
 }
@@ -82,45 +131,71 @@ ul {
 /*end of nav container*/
 
 /*Beginning of reference pictures*/
-#reference-pictures {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
+@media screen and (min-width: 540px) {
+  #reference-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-#reference-picture-1 {
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-casca-berserk-fan-art-by-anatofinnstark-dbtwu4c.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  #reference-picture-1 img {
+    height: 800px;
+    max-width: 100%;
+  }
 
-#reference-picture-2 {
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-gollum.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  #reference-picture-2 img {
+    height: 800px;
+    max-width: 100%;
+  }
 
-#reference-picture-3 {
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/anato-finnstark-artwork/anato-finnstark-web-petit2 (6).jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  #reference-picture-3 img {
+    height: 800px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #reference-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #reference-picture-1 img {
+    height: 350px;
+    max-width: 100%;
+  }
+
+  #reference-picture-2 img {
+    height: 350px;
+    max-width: 100%;
+  }
+
+  #reference-picture-3 img {
+    height: 350px;
+    max-width: 100%;
+  }
 }
 /*End of reference pictures*/
 
 /*Beginning of about me*/
-#about-me {
-  text-align: center;
-  padding-right: 15%;
-  padding-left: 10%;
-  padding-bottom: 5%;
-  color: white;
-  text-shadow: 5px 5px 10px black;
-  font-size: x-large;
+@media screen and (min-width: 480px) {
+  #about-me {
+    text-align: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-bottom: 2vw;
+    color: white;
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  #about-me {
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 2vw;
+    color: white;
+    font-size: 1.5vh;
+  }
 }
 /*End of about me*/
