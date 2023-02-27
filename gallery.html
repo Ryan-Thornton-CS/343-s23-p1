@@ -16,6 +16,11 @@
     <meta name="theme-color" content="#ffffff">
     <!--End of favicon-->
 
+    <!--This is used for icons for the buttons-->
+    <script src="https://kit.fontawesome.com/b6dbcc4dbd.js"
+        crossorigin="anonymous"></script>
+    <!--End of icons-->
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,11 +28,94 @@
     <meta name="author" content="Ryan Thornton and Hudson Shaeffer" />
     <meta name="artist" content="Anato Finnstark" />
 
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="css/shared.css">
     <link href="css/gallery.css" rel="stylesheet">
+    <!--End of Style Sheet-->
 </head>
 
-<body>
+<!--Start of Body-->
 
+<body>
+    <!--Start of main body-->
+    <div id="main-body">
+        <!--Start of header-->
+        <header id="header">
+            <!--Start of title-->
+            <div id="main-title">
+                <h1 id="main-title-text">Gallery</h1>
+            </div>
+            <!--End of title-->
+        </header>
+        <!--End of header-->
+        <!--Start of gallery-->
+        <div id="gallery">
+            <h2 id="fantasy">Theme - Fantasy</h2>
+
+        </div>
+        <!--End of gallery me-->
+    </div>
+    <!--End of main body-->
+    <!--Start of global navigation container-->
+    <div id="nav-container">
+        <nav id="nav">
+            <ul>
+                <li>
+                    <button id="home-button" class="fa-solid fa-home"
+                        onclick="window.location.href='index.html';">
+                        Home</button>
+                </li>
+                <li>
+                    <button id="store-button" class="fa-solid fa-store"
+                        onclick="window.location.href='purchase_page.html';">
+                        Store</button>
+                </li>
+                <li>
+                    <button id="gallery-button" class="fa-solid fa-palette"
+                        onclick="window.location.href='gallery.html';">
+                        Gallery</button>
+                </li>
+                <li>
+                    <button id="origin-button" class="fa-solid fa-lightbulb"
+                        onclick="window.location.href='origin_of_drawings.html';">
+                        Inspiration</button>
+                </li>
+                <li>
+                    <button id="shows-button" class="fa-solid fa-calendar"
+                        onclick="window.location.href='up_coming_shows.html';">
+                        Art Shows</button>
+                </li>
+                <li>
+                    <button id="instagram-button" class="fa-brands fa-instagram"
+                        onclick="window.open('https://www.instagram.com/anatofinnstark/?hl=en','_blank')">
+                        Instagram</button>
+                </li>
+                <li>
+                    <button id="youtube-button" class="fa-brands fa-youtube"
+                        onclick="window.open('https://www.youtube.com/channel/UChIjArnRdnQFMIDxHIj42yA','_blank')">
+                        YouTube</button>
+                </li>
+                <li>
+                    <button id="facebook-button" class="fa-brands fa-facebook"
+                        onclick="window.open('https://www.facebook.com/finnstarkillustration','_blank')">
+                        FaceBook</button>
+                </li>
+                <li>
+                    <button id="twitter-button" class="fa-brands fa-twitter"
+                        onclick="window.open('https://twitter.com/AFinnstark?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor','_blank')">
+                        Twitter</button>
+                </li>
+                <li>
+                    <button id="artstation-button"
+                        class="fa-brands fa-artstation"
+                        onclick="window.open('https://anto-finnstark.artstation.com/','_blank')">
+                        ArtStation</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--End of global navigation container-->
 </body>
+<!--End of Body-->
 
 </html>

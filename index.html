@@ -31,8 +31,9 @@
   <meta name="artist" content="Anato Finnstark" />
 
   <!--Style Sheet-->
-  <link href="css/index.css" rel="stylesheet">
-  <!--End Style Sheet-->
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!--End of Style Sheet-->
 </head>
 <!--End of head-->
 
@@ -40,7 +41,8 @@
 <!--Start of Body-->
 
 <body>
-  <div id="header-and-about-me">
+  <!--Start of main body-->
+  <div id="main-body">
     <!--Start of header-->
     <header id="header">
       <!--Start of title-->
@@ -91,10 +93,16 @@
     </div>
     <!--End of about me-->
   </div>
+  <!--End of main body-->
   <!--Start of global navigation container-->
   <div id="nav-container">
     <nav id="nav">
       <ul>
+        <li>
+          <button id="home-button" class="fa-solid fa-home"
+            onclick="window.location.href='index.html';">
+            Home</button>
+        </li>
         <li>
           <button id="store-button" class="fa-solid fa-store"
             onclick="window.location.href='purchase_page.html';">
