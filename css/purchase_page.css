@@ -1,0 +1,13 @@
+#commission-form-container {
+    padding-left: 1vw;
+    padding-right: 10vw;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+}
+#subject-query {
+    max-width: 40vw;
+}
+#description-subtext {
+    font-size: small;
+}
