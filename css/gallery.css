@@ -55,122 +55,122 @@
   /*end of picture-container*/
   /*Start of the Dune theme*/
   #dune .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg");
   }
   #dune-1 {
     grid-area: picture1;
   }
   #dune-1:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg");
   }
   #dune-2 {
     grid-area: picture2;
   }
   #dune-2:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b2.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b2.jpg");
   }
   #dune-3 {
     grid-area: picture3;
   }
   #dune-3:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b3.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b3.jpg");
   }
   #dune-4 {
     grid-area: picture4;
   }
   #dune-4:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit_(1).jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit_(1).jpg");
   }
   #dune-5 {
     grid-area: picture5;
   }
   #dune-5:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit.jpg");
   }
   #dune-6 {
     grid-area: picture6;
   }
   #dune-6:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web.jpg");
   }
   /*End of the Dune theme*/
   /*Start of Witcher*/
   #witcher .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
   }
   #witcher-1 {
     grid-area: picture1;
   }
   #witcher-1:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
   }
   #witcher-2 {
     grid-area: picture2;
   }
   #witcher-2:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-anato-finnstark-anato-finnstark-cover-6.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-anato-finnstark-anato-finnstark-cover-6.jpg");
   }
   #witcher-3 {
     grid-area: picture3;
   }
   #witcher-3:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-cover-3-final.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-cover-3-final.jpg");
   }
   #witcher-4 {
     grid-area: picture4;
   }
   #witcher-4:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit-vrais.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit-vrais.jpg");
   }
   #witcher-5 {
     grid-area: picture5;
   }
   #witcher-5:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit.jpg");
   }
   #witcher-6 {
     grid-area: picture6;
   }
   #witcher-6:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-witcher-geralt-final-2y.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-witcher-geralt-final-2y.jpg");
   }
   /*End of Witcher*/
   /*Start of the Lord of the Rings*/
   #LOTR .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg");
   }
   #LOTR .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
   }
   #LOTR-1 {
     grid-area: picture1;
   }
   #LOTR-1:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg");
   }
   #LOTR-2 {
     grid-area: picture2;
   }
   #LOTR-2:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-anato-finnstark-anato-finnstark-web-petit-4.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-anato-finnstark-anato-finnstark-web-petit-4.jpg");
   }
   #LOTR-3 {
     grid-area: picture3;
   }
   #LOTR-3:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(1).jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(1).jpg");
   }
   #LOTR-4 {
     grid-area: picture4;
   }
   #LOTR-4:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(2).jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(2).jpg");
   }
   #LOTR-5 {
     grid-area: picture5;
   }
   #LOTR-5:hover ~ .enlarged-picture {
-    background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit.jpg");
+    background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit.jpg");
   }
   /*End of the Lord of the Rings*/
 }
