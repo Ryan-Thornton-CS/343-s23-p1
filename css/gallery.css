@@ -1,3 +1,23 @@
+@media screen and (max-width: 540px) {
+  /*Start of gallery*/
+  #gallery {
+    margin-left: 1vw;
+    margin-right: 15vw;
+  }
+  .picture-container img {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    padding-top: 1vh;
+  }
+  #gallery h2 {
+    font-size: 3vh;
+    text-align: left;
+  }
+  /*End of gallery*/
+}
+
 @media screen and (min-width: 540px) {
   /*Start of gallery*/
   #gallery {
@@ -74,7 +94,6 @@
     background-image: url("/images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web.jpg");
   }
   /*End of the Dune theme*/
-
   /*Start of Witcher*/
   #witcher .enlarged-picture {
     background-image: url("/images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg");
@@ -154,22 +173,4 @@
     background-image: url("/images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit.jpg");
   }
   /*End of the Lord of the Rings*/
-}
-
-@media screen and (max-width: 540px) {
-  /*Start of gallery*/
-  #gallery {
-    margin-left: 5vw;
-    margin-right: 11vw;
-    display: flex;
-    flex-direction: column;
-  }
-  #gallery image {
-    height: 100vh;
-    max-width: 100%;
-  }
-  #gallery h2 {
-    text-align: left;
-  }
-  /*End of gallery*/
 }
