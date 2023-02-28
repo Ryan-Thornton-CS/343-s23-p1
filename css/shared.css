@@ -5,32 +5,24 @@ body {
   margin: 0;
   padding: 0;
 }
+#main-body {
+  width: 100vw;
+}
+#nav-container nav {
+  border-left: solid 1px;
+  border-color: white;
+}
+#nav-container button:hover {
+  box-shadow: 0px 0px 20px 20px rgb(255, 255, 255);
+}
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 540px) {
   body {
     display: flex;
     align-items: stretch;
     background-color: black;
     height: 100vh;
   }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    display: flex;
-    align-items: stretch;
-    background-color: black;
-    margin-right: 21%;
-  }
-}
-
-/*Beginning of Main body*/
-#main-body {
-  width: 100vw;
-}
-
-/*Beginning header*/
-@media screen and (min-width: 480px) {
   #header {
     border: solid 1px;
     border-color: black;
@@ -39,26 +31,6 @@ body {
     background: rgb(0, 0, 0);
     font-size: 2vw;
   }
-}
-@media screen and (max-width: 480px) {
-  #header {
-    border: solid 1px;
-    border-color: black;
-    text-align: center;
-    color: white;
-    background: rgb(0, 0, 0);
-    font-size: 1.5vh;
-  }
-}
-/*End of header*/
-
-/*Beginning of nav container*/
-#nav-container nav {
-  border-left: solid 1px;
-  border-color: white;
-}
-
-@media screen and (min-width: 480px) {
   #nav-container {
     text-align: center;
     margin: 0;
@@ -69,20 +41,16 @@ body {
     position: fixed;
     width: 10vw;
   }
-
   #nav-container ul {
     margin: 0;
     padding: 0;
   }
-
   #nav-container ul li {
     list-style-type: none;
     text-align: left;
     padding-bottom: 0.1vw;
     padding-top: 0.1vw;
   }
-
-  /*Beginning of buttons*/
   #nav-container button {
     font-size: 1vw;
     border-bottom: solid 1px;
@@ -98,7 +66,22 @@ body {
     );
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 540px) {
+  body {
+    display: flex;
+    align-items: stretch;
+    background-color: black;
+    margin-right: 21%;
+  }
+  #header {
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+    font-size: 1.5vh;
+  }
   #header-and-about-me {
     margin-right: 20vw;
   }
@@ -113,20 +96,16 @@ body {
     position: fixed;
     width: 20vw;
   }
-
   #nav-container ul {
     margin: 0;
     padding: 0;
   }
-
   #nav-container ul li {
     list-style-type: none;
     text-align: left;
     padding-bottom: 0.1vw;
     padding-top: 0.1vw;
   }
-
-  /*Beginning of buttons*/
   #nav-container button {
     font-size: 2vw;
     border-bottom: solid 1px;
@@ -142,8 +121,3 @@ body {
     );
   }
 }
-#nav-container button:hover {
-  box-shadow: 0px 0px 20px 20px rgb(255, 255, 255);
-}
-/*End of button*/
-/*end of nav container*/

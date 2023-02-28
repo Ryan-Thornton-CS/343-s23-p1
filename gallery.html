@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Showing - Anato Finnstark</title>
+    <meta name="author" content="Ryan Thornton and Hudson Shaeffer" />
+    <meta name="artist" content="Anato Finnstark" />
+
     <!--Start of favicon-->
     <link rel="apple-touch-icon" sizes="180x180"
         href="images/favicon/apple-touch-icon.png">
@@ -21,16 +28,19 @@
         crossorigin="anonymous"></script>
     <!--End of icons-->
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery Showing - Anato Finnstark</title>
-    <meta name="author" content="Ryan Thornton and Hudson Shaeffer" />
-    <meta name="artist" content="Anato Finnstark" />
+    <!--Used to enlarge pictures MIGHT BE ILLEGAL TO USE THIS THIS PROJECT-->
+    <!-- <script>
+        function onClick(element) {
+            document.getElementById("picture").src = element.src;
+            document.getElementById("full-screen-picture").style.display = "block";
+        }
+    </script> -->
+    <!--End of Used to enlarge pictures-->
 
     <!--Style Sheet-->
     <link rel="stylesheet" href="css/shared.css">
     <link href="css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--End of Style Sheet-->
 </head>
 
@@ -50,22 +60,78 @@
         <!--End of header-->
         <!--Start of gallery-->
         <div id="gallery">
-            <div id="dune">
-                <h2 id="fantasy">Theme - Dune!</h2>
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg"
-                    alt="dune">
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b2.jpg"
-                    alt="dune">
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b3.jpg"
-                    alt="dune">
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit_(1).jpg"
-                    alt="dune">
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit.jpg"
-                    alt="dune">
-                <img src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web.jpg"
-                    alt="dune">
+            <!--Start of Dune-->
+            <h2 id="dune-title">Theme - Dune!</h2>
+            <div id="dune" class="picture-container">
+                <img id="dune-1"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b1.jpg"
+                    alt="dune-1" class="w3-hover-opacity">
+                <img id="dune-2"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b2.jpg"
+                    alt="dune-2" class="w3-hover-opacity">
+                <img id="dune-3"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-b3.jpg"
+                    alt="dune-3" class="w3-hover-opacity">
+                <img id="dune-4"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit_(1).jpg"
+                    alt="dune-4" class="w3-hover-opacity">
+                <img id="dune-5"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web-petit.jpg"
+                    alt="dune-5" class="w3-hover-opacity">
+                <img id="dune-6"
+                    src="images/anato-finnstark-artwork/gallery/dune/anato-finnstark-web.jpg"
+                    alt="dune-6" class="w3-hover-opacity">
+                <div class="enlarged-picture"></div>
             </div>
-            
+            <hr>
+            <!--End of Dune-->
+            <!--Start of Witcher-->
+            <h2 id="witcher-title">Theme - Witcher!</h2>
+            <div id="witcher" class="picture-container">
+                <img id="witcher-1"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-1-final-cover-1v.jpg"
+                    alt="witcher-1" class="w3-hover-opacity">
+                <img id="witcher-2"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-anato-finnstark-anato-finnstark-cover-6.jpg"
+                    alt="witcher-2" class="w3-hover-opacity">
+                <img id="witcher-3"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-cover-3-final.jpg"
+                    alt="witcher-3" class="w3-hover-opacity">
+                <img id="witcher-4"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit-vrais.jpg"
+                    alt="witcher-4" class="w3-hover-opacity">
+                <img id="witcher-5"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-web-petit.jpg"
+                    alt="witcher-5" class="w3-hover-opacity">
+                <img id="witcher-6"
+                    src="images/anato-finnstark-artwork/gallery/witcher/anato-finnstark-witcher-geralt-final-2y.jpg"
+                    alt="witcher-6" class="w3-hover-opacity">
+                <div class="enlarged-picture"></div>
+            </div>
+            <hr>
+            <!--End of Witcher-->
+            <!--Start of the Lord of the Rings-->
+            <h2 id="LOTR-title">Theme - Lord of the Rings!</h2>
+            <div id="LOTR" class="picture-container">
+                <img id="LOTR-1"
+                    src="images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg"
+                    alt="Lord of the Rings-1 " class="w3-hover-opacity">
+                <img id="LOTR-2"
+                    src="images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-anato-finnstark-anato-finnstark-web-petit-4.jpg"
+                    alt="Lord of the Rings-2" class="w3-hover-opacity">
+                <img id="LOTR-3"
+                    src="images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(1).jpg"
+                    alt="Lord of the Rings-3" class="w3-hover-opacity">
+                <img id="LOTR-4"
+                    src="images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(2).jpg"
+                    alt="Lord of the Rings-4" class="w3-hover-opacity">
+                <img id="LOTR-5"
+                    src="images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit.jpg"
+                    alt="Lord of the Rings-5" class="w3-hover-opacity">
+                <div class="enlarged-picture"></div>
+            </div>
+            <hr>
+            <!--End of the Lord of the Rings-->
         </div>
         <!--End of gallery me-->
     </div>

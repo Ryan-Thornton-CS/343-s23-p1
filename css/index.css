@@ -1,52 +1,21 @@
-/*Beginning of reference pictures*/
 @media screen and (min-width: 540px) {
   #reference-pictures {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-
   #reference-picture-1 img {
     height: 800px;
     max-width: 100%;
   }
-
   #reference-picture-2 img {
     height: 800px;
     max-width: 100%;
   }
-
   #reference-picture-3 img {
     height: 800px;
     max-width: 100%;
   }
-}
-@media screen and (max-width: 540px) {
-  #reference-pictures {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #reference-picture-1 img {
-    height: 350px;
-    max-width: 100%;
-  }
-
-  #reference-picture-2 img {
-    height: 350px;
-    max-width: 100%;
-  }
-
-  #reference-picture-3 img {
-    height: 350px;
-    max-width: 100%;
-  }
-}
-/*End of reference pictures*/
-
-/*Beginning of about me*/
-@media screen and (min-width: 480px) {
   #about-me {
     text-align: center;
     padding-right: 10vw;
@@ -55,7 +24,24 @@
     font-size: 1.5vw;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
+  #reference-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #reference-picture-1 img {
+    height: 350px;
+    max-width: 100%;
+  }
+  #reference-picture-2 img {
+    height: 350px;
+    max-width: 100%;
+  }
+  #reference-picture-3 img {
+    height: 350px;
+    max-width: 100%;
+  }
   #about-me {
     text-align: center;
     padding-right: 5vw;
@@ -64,4 +50,3 @@
     font-size: 1.5vh;
   }
 }
-/*End of about me*/
