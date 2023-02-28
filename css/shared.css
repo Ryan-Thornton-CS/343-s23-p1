@@ -51,6 +51,9 @@ body {
     padding-bottom: 0.1vw;
     padding-top: 0.1vw;
   }
+  #nav-container ul li:nth-child(5) {
+    padding-bottom: 10vh;
+  }
   #nav-container button {
     font-size: 1vw;
     border-bottom: solid 1px;
@@ -105,6 +108,9 @@ body {
     text-align: left;
     padding-bottom: 0.1vw;
     padding-top: 0.1vw;
+  }
+  #nav-container ul li:nth-child(5) {
+    padding-bottom: 5vh;
   }
   #nav-container button {
     font-size: 2vw;

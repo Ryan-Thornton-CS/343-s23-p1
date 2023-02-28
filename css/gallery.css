@@ -149,28 +149,110 @@
     background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-300971660-639561284195213-8925042462105442198-n.jpg");
   }
   #LOTR-2 {
-    grid-area: picture2;
+    grid-area: picture5;
   }
   #LOTR-2:hover ~ .enlarged-picture {
     background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-anato-finnstark-anato-finnstark-web-petit-4.jpg");
   }
   #LOTR-3 {
-    grid-area: picture3;
+    grid-area: picture4;
   }
   #LOTR-3:hover ~ .enlarged-picture {
     background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(1).jpg");
   }
   #LOTR-4 {
-    grid-area: picture4;
+    grid-area: picture2;
   }
   #LOTR-4:hover ~ .enlarged-picture {
     background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit_(2).jpg");
   }
   #LOTR-5 {
-    grid-area: picture5;
+    grid-area: picture3;
   }
   #LOTR-5:hover ~ .enlarged-picture {
     background-image: url("../images/anato-finnstark-artwork/gallery/lotr/anato-finnstark-web-petit.jpg");
   }
   /*End of the Lord of the Rings*/
+  /*Start of Fantasy-1*/
+  #fantasy-1-pictures .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-a-new-level-adventure-time-spitpaint30min-by-anatofinnstark-daqz61i.jpg");
+  }
+  #fantasy-1-1 {
+    grid-area: picture1;
+  }
+  #fantasy-1-1:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-a-new-level-adventure-time-spitpaint30min-by-anatofinnstark-daqz61i.jpg");
+  }
+  #fantasy-1-2 {
+    grid-area: picture2;
+  }
+  #fantasy-1-2:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-ah-hum-i-can-explain-darksouls-by-anatofinnstark-dcopenc-1.jpg");
+  }
+  #fantasy-1-3 {
+    grid-area: picture3;
+  }
+  #fantasy-1-3:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-anato-finnstark-3d11f1aa860072b5f79b7eafc33ce09a-anato-finnstark-web-petit1-237.jpg");
+  }
+  #fantasy-1-4 {
+    grid-area: picture4;
+  }
+  #fantasy-1-4:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork//gallery/other/anato-finnstark-dex-leaf-by-anatofinnstark-dc992oi.jpg");
+  }
+  #fantasy-1-5 {
+    grid-area: picture5;
+  }
+  #fantasy-1-5:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-anato-finnstark-web-petit.jpg");
+  }
+  #fantasy-1-6 {
+    grid-area: picture6;
+  }
+  #fantasy-1-6:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-golden-hex-speedpainting-2hours-by-anatofinnstark-daq3fgv-1.jpg");
+  }
+  /*End of Fantasy-1*/
+  /*Start of Fantasy-2*/
+  #fantasy-2-pictures .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-web-peti.jpg");
+  }
+  #fantasy-2-1 {
+    grid-area: picture1;
+  }
+  #fantasy-2-1:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-web-peti.jpg");
+  }
+  #fantasy-2-2 {
+    grid-area: picture2;
+  }
+  #fantasy-2-2:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-web-petit(1).jpg");
+  }
+  #fantasy-2-3 {
+    grid-area: picture3;
+  }
+  #fantasy-2-3:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-web-petit.jpg");
+  }
+  #fantasy-2-4 {
+    grid-area: picture4;
+  }
+  #fantasy-2-4:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork//gallery/other/anato-finnstark-web-petit(2).jpg");
+  }
+  #fantasy-2-5 {
+    grid-area: picture5;
+  }
+  #fantasy-2-5:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-web-petit(3).jpg");
+  }
+  #fantasy-2-6 {
+    grid-area: picture6;
+  }
+  #fantasy-2-6:hover ~ .enlarged-picture {
+    background-image: url("../images/anato-finnstark-artwork/gallery/other/anato-finnstark-you-died-in-8-bit-by-anatofinnstark-dcow52z.jpg");
+  }
+  /*End of Fantasy-2*/
 }
