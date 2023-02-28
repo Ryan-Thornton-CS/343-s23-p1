@@ -43,11 +43,86 @@
         <header id="header">
             <!--Start of title-->
             <div id="main-title">
-                <h1 id="main-title-text">Shop</h1>
+                <h1 id="main-title-text">Commissions</h1>
             </div>
             <!--End of title-->
         </header>
         <!--End of header-->
+        <!--Start of commission form-->
+        <div id="commission-form-container">
+            <form method="get" id="commission-form">
+                <!--Email input -->
+                <div id="email-query">
+                    <label for="contact">How should I contact you?</label>
+                    <input id="contact" type="email" name="email" placeholder="jsmith@email.com" required>
+                    <!-- input required -->
+                </div>
+
+                <!--Start of Subject selector-->
+                <fieldset id="subject-query">
+                    <legend>What do you want drawn?</legend>
+                    <!-- OC option -->
+                    <div>
+                        <input type="checkbox" id="character" name="character" value="Character/OC">
+                        <label for="character">Character/OC</label>
+                    </div>
+                    <!-- Fanart option -->
+                    <div>
+                        <input type="checkbox" id="fanart" name="fanart" value="fanart">
+                        <label for="fanart">Fanart</label>
+                    </div>
+                    <!-- Person option -->
+                    <div>
+                        <input type="checkbox" id="person" name="person" value="person">
+                        <label for="person">Person</label>
+                    </div>
+                    <!-- Pet option -->
+                    <div>
+                        <input type="checkbox" id="animal" name="animal" value="animal">
+                        <label for="animal">Pet/Animal</label>
+                    </div>
+                    <!-- Other option -->
+                    <div>
+                        <input type="checkbox" id="other" name="other" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </fieldset>
+                <!-- End of subject selector -->
+
+                <!-- Description input -->
+                <div id="desc-query">
+                    <label for="description">Describe the scene! 
+                        <span id="description-subtext"> If you selected other in the previous field, describe what you would like drawn.</span>
+                    </label>
+                    <input type="text" id="description" name="description" size="450" required>
+                    <!-- input required -->
+                </div>
+
+                <!-- Theme input -->
+                <div id="theme-query">
+                    <label for="theme">What style do you want it drawn in? 
+                        <span id="theme-subtext">(Tell me the vibe)</span>
+                    </label>
+                    <!-- Start of dropdown menu options -->
+                    <select name="themes" id="theme" required>
+                        <option value="" id="default-theme-choice">--Please select an option--</option>
+                        <option value="artist-choice" id="artist-theme-choice">I'll let you choose</option>
+                        <option value="cinematic" id="cinematic-theme-choice">Cinematic/Epic</option>
+                        <option value="cute" id="cute-theme-choice">Cute/Chibi</option>
+                        <option value="lofi" id="lofi-theme-choice">Soft/Cozy</option>
+                        <option value="nature" id="nature-theme-choice">Naturalistic/Realistic</option>
+                    </select>
+                    <!-- End of dropdown menu option -->
+                    <!-- input required -->
+                </div>
+
+                <!-- Form submission -->
+                <div id="submit-form">
+                    <input type="submit" value="Submit Form">
+                </div>
+            </form>
+        </div>
+        <!--End of commission form-->
     </div>
     <!--End of main body-->
     <!--Start of global navigation container-->

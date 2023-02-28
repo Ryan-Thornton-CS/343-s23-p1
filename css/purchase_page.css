@@ -8,6 +8,37 @@
 #subject-query {
     max-width: 40vw;
 }
-#description-subtext {
+#description-subtext, #theme-subtext {
     font-size: small;
+    color: #eeed;
+}
+#desc-query {
+    position: relative;
+    margin-bottom: 2vh;
+}
+#desc-query #description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: fit-content;
+    max-width: 40vw;
+}
+#theme-query {
+    padding-bottom: 1vh;
+}
+
+@media screen and (max-width: 540px) {
+    #commission-form-container {
+        padding-left: 2vw;
+        padding-right: 0;
+    }
+    #subject-query {
+        max-width: 60vw;
+    }
+    #desc-query {
+        margin-bottom: 4vh;
+    }
+    #desc-query #description {
+        max-width: 70vw;
+    }
 }
