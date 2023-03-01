@@ -1,0 +1,33 @@
+@media screen and (min-width: 540px) {
+  #inspiration-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 15vw;
+    margin-bottom: 10vh;
+  }
+  #note-from-artist {
+    font-size: 2vh;
+  }
+  #introduction-paragraph {
+    font-size: 2vh;
+  }
+  #witcher-origins-title {
+    padding-top: 10vh;
+    text-align: center;
+  }
+  #picture {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-size: 2vh;
+  }
+  #author-witcher {
+    max-width: 100%;
+    height: auto;
+    border: double white 5px;
+    margin-right: 1vw;
+  }
+}
+@media screen and (max-width: 540px) {
+}
