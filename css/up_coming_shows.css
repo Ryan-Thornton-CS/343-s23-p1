@@ -3,12 +3,18 @@
     width: fit-content;
     max-width: 80vw;
 }
-#show-title {
+.show-title {
     font-size: larger;
     font-weight: bold;
 }
 #shows #show-title a{
     text-decoration: none;
+}
+:link {
+    color: lightblue;
+}
+:visited {
+    color: plum;
 }
 #shows span{
     font-weight: bold;
