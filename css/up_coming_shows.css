@@ -1,0 +1,15 @@
+#shows {
+    padding-left: 2vw;
+    width: fit-content;
+    max-width: 80vw;
+}
+#show-title {
+    font-size: larger;
+    font-weight: bold;
+}
+#shows #show-title a{
+    text-decoration: none;
+}
+#shows span{
+    font-weight: bold;
+}
