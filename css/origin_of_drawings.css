@@ -16,11 +16,16 @@
     padding-top: 10vh;
     text-align: center;
   }
+  #witcher-origins-title-2 {
+    padding-top: 2vh;
+    text-align: center;
+  }
   #picture {
     display: flex;
     flex-direction: column;
     float: left;
     font-size: 2vh;
+    padding-right: 1vw;
   }
   #author-witcher {
     max-width: 100%;
@@ -28,6 +33,43 @@
     border: double white 5px;
     margin-right: 1vw;
   }
+  footer a {
+    color: white;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 540px) {
+  #inspiration-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right: 25vw;
+    margin-bottom: 10vh;
+  }
+  #note-from-artist {
+    font-size: 2vh;
+  }
+  #introduction-paragraph {
+    font-size: 2vh;
+  }
+  #witcher-origins-title {
+    padding-top: 10vh;
+    text-align: center;
+  }
+  #picture {
+    padding-bottom: 2vh;
+  }
+  #picture #author-witcher {
+    max-width: 100%;
+    height: auto;
+  }
+  #author-witcher {
+    max-width: 100%;
+    height: auto;
+    border: double white 5px;
+    margin-right: 1vw;
+  }
+  footer a {
+    color: white;
+  }
 }
