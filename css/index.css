@@ -1,4 +1,4 @@
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 850px) {
   #reference-pictures {
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@
     font-size: 1.5vw;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 850px) {
   #reference-pictures {
     display: flex;
     flex-direction: row;

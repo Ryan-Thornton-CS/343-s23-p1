@@ -1,4 +1,4 @@
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 850px) {
   /*Start of gallery*/
   #gallery {
     margin-left: 1vw;
@@ -18,11 +18,11 @@
   /*End of gallery*/
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 850px) {
   /*Start of gallery*/
   #gallery {
     margin-left: 5vw;
-    margin-right: 11vw;
+    margin-right: 20vw;
   }
   #gallery h2 {
     text-align: left;
